@@ -4,7 +4,6 @@ module com.example.assignment3_chatsystem {
   requires java.desktop;
   requires com.google.gson;
 
-  opens chat to javafx.fxml;
   opens chat.view to javafx.fxml;
   opens chat.model to com.google.gson;
   opens chat.client to com.google.gson;
@@ -17,4 +16,6 @@ module com.example.assignment3_chatsystem {
   exports chat.client;
   exports chat.server.model;
   opens chat.server.model to com.google.gson;
+  exports chat;
+  opens chat to com.google.gson, javafx.fxml;
 }
