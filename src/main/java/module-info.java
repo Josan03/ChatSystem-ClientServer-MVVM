@@ -15,4 +15,6 @@ module com.example.assignment3_chatsystem {
   exports chat.view;
   exports chat.server;
   exports chat.client;
+  exports chat.server.model;
+  opens chat.server.model to com.google.gson;
 }

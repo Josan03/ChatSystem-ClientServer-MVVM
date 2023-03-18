@@ -5,7 +5,7 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 import chat.client.Data;
-import chat.client.ServerData;
+import chat.server.model.ServerData;
 import chat.model.Message;
 import chat.model.User;
 import chat.server.logs.FileLog;

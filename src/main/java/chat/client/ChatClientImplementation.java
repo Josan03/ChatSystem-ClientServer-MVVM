@@ -2,6 +2,7 @@ package chat.client;
 
 import chat.model.Message;
 import chat.model.User;
+import chat.server.model.ServerData;
 import com.google.gson.Gson;
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;

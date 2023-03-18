@@ -1,8 +1,7 @@
 package chat.model;
 
 import chat.client.ChatClientImplementation;
-import chat.client.Data;
-import chat.client.ServerData;
+import chat.server.model.ServerData;
 import javafx.application.Platform;
 
 import java.beans.PropertyChangeEvent;
