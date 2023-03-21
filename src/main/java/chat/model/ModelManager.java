@@ -97,6 +97,7 @@ public class ModelManager implements PropertyChangeListener
     try
     {
       client.close(user);
+      client.removePropertyChangeListener(this);
     }
     catch (IOException e)
     {
@@ -129,7 +130,6 @@ public class ModelManager implements PropertyChangeListener
       }
       if (evt.getPropertyName().equals("close"))
       {
-        userList.removeUser(user);
         userList.setUserList(serverData.getUsers());
         messageList.setMessageList(serverData.getMessages());
         support.firePropertyChange("close", null, userList);

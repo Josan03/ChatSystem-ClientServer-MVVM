@@ -7,9 +7,9 @@ import java.util.ArrayList;
 
 public class ServerData
 {
-  private String response;
-  private ArrayList<User> users;
-  private ArrayList<Message> messages;
+  private final String response;
+  private final ArrayList<User> users;
+  private final ArrayList<Message> messages;
 
   public ServerData(String response, ArrayList<User> users, ArrayList<Message> messages)
   {
