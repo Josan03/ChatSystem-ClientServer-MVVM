@@ -1,7 +1,7 @@
-# ChatSystem-ClientServer-MVVM
+# ChatSystem-ClientServer-Sockets-MVVM
  
 <b>General Information</b>
-<p>A simple multi-user chat system.</p> 
+<p>A simple multi-user chat system with Sockets technology server.</p> 
 
 <b>Technologies</b>
 <ul>
